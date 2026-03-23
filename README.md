@@ -6,6 +6,27 @@
 &emsp; The process begins with the random initialization of a population, followed by evaluation and application of genetic operators. This cycle continues until a stopping criterion is met, such as reaching a maximum number of generations or achieving an acceptable solution (Sivanandam & Deepa, 2008). <br>
 &emsp; According to Yang (2021) the genetic algorithms are effective for solving non-linear and high-dimensional optimization problems and are commonly applied in machine learning, engineering, and data analysis. However, they may require careful parameter tuning and can be computationally intensive (Yang, 2021). <br>
 
+# Sudoku Solver (Genetic Algorithm Example 1)
+This project implements a Sudoku solver using a Genetic Algorithm (GA) in Python.
+
+## Description
+The algorithm evolves a population of candidate Sudoku solutions using:
+* Selection
+* Crossover
+* Mutation
+The goal is to minimize conflicts in rows and columns until a valid Sudoku solution is found.
+
+## Features
+* Works on standard 9x9 Sudoku
+* Uses evolutionary computation
+* Beginner-friendly implementation
+
+## How It Works
+* Each individual represents a Sudoku grid
+* Fitness = number of duplicate values in rows and columns
+* Lower fitness = better solution
+* The algorithm stops when fitness = 0
+
 ## Summary
 A Genetic Algorithm is:
 - an evolutionary optimization technique <br>
