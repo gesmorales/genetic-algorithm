@@ -7,7 +7,7 @@
 &emsp; According to Yang (2021) the genetic algorithms are effective for solving non-linear and high-dimensional optimization problems and are commonly applied in machine learning, engineering, and data analysis. However, they may require careful parameter tuning and can be computationally intensive (Yang, 2021). <br>
 
 ## Sudoku Solver (Genetic Algorithm Example 1)
-This project implements a Sudoku solver using a Genetic Algorithm (GA) in Python.
+sudoko.py - this project implements a Sudoku solver using a Genetic Algorithm (GA) in Python.
 
 ### Description
 The algorithm evolves a population of candidate Sudoku solutions using:
@@ -28,7 +28,7 @@ The goal is to minimize conflicts in rows and columns until a valid Sudoku solut
 * The algorithm stops when fitness = 0
 
 ## Knapsack Problem (Genetic Algorithm Example 2)
-This project demonstrates how a Genetic Algorithm (GA) can solve the Knapsack Problem.
+knapsack.py - this project demonstrates how a Genetic Algorithm (GA) can solve the Knapsack Problem.
 
 ### Problem
 Given a set of items with weights and values, the goal is to maximize total value without exceeding the weight capacity.
