@@ -1,4 +1,5 @@
-# Genetic Algorithm
+# Genetic Algorithm by gesmorales
+
 ## Description
 A genetic algorithm (GA) is an optimization and search technique inspired by the principles of natural selection and genetics. It is part of evolutionary algorithms and is widely used to solve complex problems where traditional methods are difficult to apply (Mitchell, 1996; Sivanandam & Deepa, 2008).
 
